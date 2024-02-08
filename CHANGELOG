@@ -1,7 +1,13 @@
+sentence-transphormers (0.0.4)
+
+	* Fixing namespaces
+	* New ropherta version
+
+-- Pablo Duboue, 2024/02/08
+
 sentence-transphormers (0.0.3)
 
 	* Fixing method signature
-	* New ropherta version
 
 -- Pablo Duboue, 2024/02/08
 
