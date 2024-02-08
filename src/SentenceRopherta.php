@@ -11,9 +11,9 @@ class SentenceRopherta extends \Textualization\Ropherta\RophertaModel {
         $this->tokenizer = new Tokenizer(); // this creates the tokenizer twice, oh well
     }
 
-    public function _encode(array|string $text) : array
+    public function _encode(array|string $text, float|bool $padding = false) : array
     {
-        $full_output = parent::_encode($text);
+        $full_output = parent::_encode($text, $padding);
 
         $layer = $full_output["token_embeddings"];
 
