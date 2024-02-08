@@ -1,6 +1,6 @@
 <?php
 
-namespace Textualization\SentenceTransphormer;
+namespace Textualization\SentenceTransphormers;
 
 class Tokenizer extends \Textualization\Ropherta\Tokenizer {
     
