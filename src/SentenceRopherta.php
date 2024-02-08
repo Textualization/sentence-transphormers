@@ -4,10 +4,9 @@ namespace Textualization\SentenceTransphormer;
 
 class SentenceRopherta extends \Textualization\Ropherta\RophertaModel {
 
-    public function __construct(array $params)
+    public function __construct($model, $input_size=512)
     {
-        $model = "../sentence-transphormers/all-distilroberta-v1/model.onnx";
-        $input_size = $params["input_size"] ?? 512;
+        $model = $model ?? Vendor::model();
         parent::__construct($model, $input_size);
         $this->tokenizer = new Tokenizer(); // this creates the tokenizer twice, oh well
     }
