@@ -4,11 +4,11 @@ namespace Textualization\SentenceTransphormers;
 
 class SentenceRopherta extends \Textualization\Ropherta\RophertaModel {
 
-    public function __construct($model, $input_size=512)
+    public function __construct($model=null, $input_size=512)
     {
         $model = $model ?? Vendor::model();
-        parent::__construct($model, $input_size);
-        $this->tokenizer = new Tokenizer(); // this creates the tokenizer twice, oh well
+        parent::__construct($model, $input_size, true);
+        $this->tokenizer = new Tokenizer();
     }
 
     public function _encode(array|string $text, float|bool $padding = false) : array
