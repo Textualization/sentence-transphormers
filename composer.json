@@ -14,7 +14,7 @@
     ],
     "require": {
         "ankane/onnxruntime": "v0.1.7",
-        "textualization/ropherta": "v0.0.8"
+        "textualization/ropherta": "v0.0.9"
     },
     "license": "MIT",
     "autoload": {
