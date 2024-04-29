@@ -2,8 +2,6 @@
 
 namespace Textualization\SentenceTransphormers;
 
-require 'vendor/autoload.php';
-
 class Vendor {
 
     public static function model() {
