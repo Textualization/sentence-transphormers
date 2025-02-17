@@ -13,8 +13,8 @@
         }
     ],
     "require": {
-        "ankane/onnxruntime": "v0.1.7",
-        "textualization/ropherta": "v0.0.11"
+        "ankane/onnxruntime": "^v0.1.7",
+        "textualization/ropherta": "^v0.0.11"
     },
     "license": "MIT",
     "autoload": {
