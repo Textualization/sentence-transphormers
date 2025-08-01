@@ -1,3 +1,10 @@
+sentence-transphormers (0.0.10)
+
+	* Huggingface Xet update
+
+-- Pablo Duboue, 2025/08/01
+
+
 sentence-transphormers (0.0.9)
 
 	* Removed unnecessary autoload requires.
